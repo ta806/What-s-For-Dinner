@@ -1,0 +1,372 @@
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+  .food .col-5 {
+    width: 45%;
+  }
+
+  .food .col-7 {
+    width: 55%;
+  }
+
+  .inner-right .middel .left h3 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .food .col-5 {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+  }
+
+  .food .col-7 {
+    width: 100%;
+  }
+
+  .food .row {
+    flex-direction: column;
+  }
+
+  .inner-left .bottom-image {
+    bottom: -8%;
+    padding-block: 15px;
+  }
+
+  .inner-left .bottom-image .item-1 p,
+  .inner-left .bottom-image .item-2 p,
+  .inner-left .bottom-image .item-3 p {
+    font-size: 18px;
+  }
+
+  .inner-right {
+    padding: 20px !important;
+  }
+
+  .inner-right .middel .left h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .container-fluid .col-6 {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  nav .container {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .nav-left {
+    margin-bottom: 15px;
+  }
+
+  .navbar-collapse {
+    margin-top: 15px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px !important;
+  }
+
+  .food {
+    height: auto;
+    min-height: auto;
+    padding: 20px 0;
+  }
+
+  .food .col-5 {
+    min-height: 450px;
+  }
+
+  .inner-left .bottom-image {
+    bottom: -5%;
+    width: 95%;
+    padding-block: 12px;
+  }
+
+  .inner-left .bottom-image {
+    gap: 20px !important;
+  }
+
+  .inner-left .bottom-image .item-1 span,
+  .inner-left .bottom-image .item-2 span,
+  .inner-left .bottom-image .item-3 span {
+    font-size: 12px;
+  }
+
+  .inner-left .bottom-image .item-1 p,
+  .inner-left .bottom-image .item-2 p,
+  .inner-left .bottom-image .item-3 p {
+    font-size: 16px;
+  }
+
+  .inner-right .top-span .s-1,
+  .inner-right .top-span .s-2 {
+    padding: 4px 12px;
+    font-size: 11px;
+  }
+
+  .inner-right .middel {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .inner-right .middel .right {
+    justify-content: flex-start;
+  }
+
+  .inner-right .middel .left p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .last {
+    padding: 15px 12px;
+  }
+
+  .last i {
+    font-size: 16px;
+  }
+
+  .last h6 {
+    font-size: 14px;
+  }
+
+  .last p {
+    font-size: 12px;
+  }
+
+  .nav.nav-tabs {
+    flex-wrap: wrap;
+  }
+
+  button.nav-link {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .tab-one {
+    padding: 15px;
+  }
+
+  .list-tab-one span {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  .list-tab-one p {
+    font-size: 13px;
+  }
+
+  .tab-two {
+    max-height: 250px;
+  }
+
+  .tab-two .list-tab-two span {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .tab-two .list-tab-two p {
+    font-size: 13px;
+  }
+
+  .container-fluid {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .container-fluid .col-6 {
+    padding: 15px 8px;
+  }
+
+  .container-fluid .col-6 .left .out {
+    width: 30px;
+    height: 30px;
+  }
+
+  .container-fluid .col-6 p {
+    font-size: 12px;
+  }
+
+  .container-fluid .col-6 span {
+    font-size: 16px;
+  }
+
+  .inner-four .one-four {
+    padding: 15px 12px;
+  }
+
+  .inner-four .one-four p {
+    font-size: 13px;
+  }
+
+  .button-bottom button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-left .content-right h1 {
+    font-size: 18px !important;
+  }
+
+  .nav-left .content-right p {
+    font-size: 12px;
+  }
+
+  .nav .container {
+    display: flex !important;
+    align-items: space-between !important;
+  }
+
+  .food .col-5 {
+    min-height: 380px;
+  }
+
+  .food-in {
+    border-radius: 20px;
+  }
+
+  .food-in .inner-left .top-image {
+    padding: 5px 12px;
+    top: 3%;
+    left: 3%;
+  }
+
+  .food-in .inner-left .top-image i {
+    font-size: 12px;
+  }
+
+  .food-in .inner-left .top-image span {
+    font-size: 12px;
+  }
+
+  .food-in .inner-left .top-image p {
+    font-size: 11px;
+  }
+
+  .inner-left .bottom-image {
+    flex-wrap: wrap;
+    gap: 15px !important;
+    padding-block: 15px;
+    bottom: -8%;
+  }
+
+  .inner-left .bottom-image .item-1,
+  .inner-left .bottom-image .item-2,
+  .inner-left .bottom-image .item-3 {
+    flex: 1;
+    min-width: 80px;
+  }
+
+  .inner-left .bottom-image span {
+    font-size: 10px;
+  }
+
+  .inner-left .bottom-image p {
+    font-size: 14px;
+  }
+
+  .inner-right {
+    padding: 15px !important;
+  }
+
+  .inner-right .middel .left h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .inner-right .middel .left p {
+    font-size: 13px;
+  }
+
+  .inner-right .middel .right .save,
+  .inner-right .middel .right .share {
+    width: 40px;
+    height: 40px;
+  }
+
+  .inner-right .middel .right .save i,
+  .inner-right .middel .right .share i {
+    font-size: 14px;
+  }
+
+  button.nav-link {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+
+  button.nav-link i {
+    font-size: 12px;
+  }
+
+  .list-tab-one {
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .list-tab-one span {
+    width: 22px;
+    height: 22px;
+    font-size: 11px;
+  }
+
+  .list-tab-one p {
+    font-size: 12px;
+  }
+
+  .tab-two .list-tab-two {
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .tab-two .list-tab-two span {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .tab-two .list-tab-two p {
+    font-size: 12px;
+  }
+
+  .container-fluid .row {
+    gap: 10px;
+  }
+
+  .container-fluid .col-6 {
+    width: calc(50% - 10px);
+    margin: 0;
+  }
+
+  .inner-four .one-four {
+    margin-bottom: 12px;
+  }
+
+  .inner-four .one-four i {
+    font-size: 14px;
+  }
+
+  .button-bottom {
+    margin: 15px 0;
+    padding-top: 15px;
+  }
+
+  .button-bottom button {
+    padding: 8px 16px;
+    font-size: 13px;
+    width: 100%;
+  }
+}

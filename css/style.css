@@ -1,0 +1,448 @@
+/* ^^^^^^^^^^^^^^^^^^^^Global Selector^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #ff5507;
+}
+body {
+  margin: 0;
+  background-color: #fffceb;
+}
+body::selection {
+  background-color: #3367d1;
+  color: rgb(255, 255, 255);
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^ end Global Selector^^^^^^^^^^^^^^^^^^^^^^^^ */
+/******************** navbar***************************** */
+
+nav .nav-left .out-nav {
+  width: 45px;
+  height: 45px;
+  background-color: var(--main-color);
+}
+nav .nav-left .content-right h1 {
+  font-size: 24px;
+  color: #101828;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0;
+}
+nav .nav-left .content-right p {
+  margin: 0;
+  font-size: 14px;
+  color: #6a7282;
+}
+.nav-item i {
+  color: #4a5565;
+  font-size: 18px;
+  cursor: pointer;
+}
+.nav-item i:hover {
+  color: var(--main-color);
+}
+li.im-right {
+  width: 40px;
+}
+li.im-right img {
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/********************end navbar***************************** */
+/*!!!!!!!!!!!!!!!!!!! food !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.food {
+  padding-top: 35px;
+  margin-bottom: 60px;
+}
+.food-in {
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.153);
+}
+.food-in .inner-left .top-image {
+  background-color: white;
+  border-radius: 30px;
+  padding: 8px 20px;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+}
+.food-in .inner-left .top-image i {
+  color: gold;
+}
+.food-in .inner-left {
+  height: 100%;
+}
+.food-in .inner-left img {
+  height: 100%;
+  object-fit: cover;
+}
+.food-in .inner-left .top-image span {
+  color: #101828;
+  font-weight: 600;
+}
+.food-in .inner-left .top-image p {
+  font-size: 14px;
+  color: #6a7282;
+}
+.inner-left .bottom-image {
+  background-color: white;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  width: 90%;
+  padding-block: 25px;
+}
+.inner-left .bottom-image .item-1,
+.inner-left .bottom-image .item-2,
+.inner-left .bottom-image .item-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-left .bottom-image p {
+  margin: 0;
+  font-weight: 700;
+  color: #101828;
+}
+.inner-left .bottom-image span {
+  color: #6a7282;
+  font-size: 14px;
+}
+.inner-left .bottom-image .item-1 i {
+  color: var(--main-color);
+}
+.inner-left .bottom-image .item-2 i {
+  color: #fa3741;
+}
+.inner-left .bottom-image .item-3 {
+  color: #2b7fff;
+}
+/* right */
+
+.inner-right .top-span .s-1,
+.inner-right .top-span .s-2 {
+  background-color: #dbfce7;
+  padding: 4px 18px;
+  border-radius: 30px;
+  color: #008236;
+  font-size: 12px;
+  font-weight: 600;
+}
+.inner-right .top-span .s-2 {
+  color: #1447e6;
+  background-color: #dbeafe;
+  margin-left: 10px;
+}
+
+.inner-right .middel .left h3 {
+  color: #101828;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 8px;
+}
+.inner-right .middel .left p {
+  color: #4a5565;
+
+  line-height: 28px;
+}
+.inner-right .middel .right .save,
+.inner-right .middel .right .share {
+  background-color: #fefbe9;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.inner-right .middel .right .save i,
+.inner-right .middel .right .share i {
+  color: var(--main-color);
+}
+.inner-right .middel .right .save:hover,
+.inner-right .middel .right .share:hover {
+  background-color: #ffd6a7;
+}
+/* nav and tab */
+.food {
+  padding-top: 35px;
+  margin-bottom: 60px;
+  height: calc(150vh - 90px);
+  display: flex;
+  flex-direction: column;
+}
+.food .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.food .food-in {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.food .row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  flex: 1;
+}
+
+.food .col-5 {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+.food .col-7 {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+.food .col-7::-webkit-scrollbar {
+  width: 5px;
+}
+.food .col-7::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 10px;
+  height: 50% !important;
+}
+
+.food .col-7::-webkit-scrollbar-thumb:hover {
+  background: #cc4400;
+  cursor: pointer;
+}
+.inner-right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav.nav-tabs {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+button.nav-link {
+  color: #6a7282 !important;
+  border: 0 !important;
+  font-weight: 600;
+}
+button.nav-link:hover {
+  color: var(--main-color) !important;
+}
+button.nav-link:focus {
+  border-bottom: 2px solid var(--main-color) !important;
+}
+
+.last {
+  background-color: #fef2f2;
+  padding: 25px 15px;
+  border-left: 4px solid #fb2c36;
+  border-radius: 10px;
+  margin-block: 25px;
+}
+.last i {
+  color: #fb2c36;
+  font-size: 20px;
+}
+.last h6 {
+  font-size: 16px;
+  color: #9f0712;
+  font-weight: 600;
+}
+.last p {
+  color: #e7000b;
+  font-size: 14px;
+}
+/* tab one */
+.tab-one {
+  background-color: #fff9eb;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+.list-tab-one {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap: 0.625rem;
+  margin-bottom: 15px;
+}
+.list-tab-one span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.list-tab-one {
+  color: #364153;
+}
+/* tab two */
+.tab-two {
+  margin: 15px 0;
+  height: 300px;
+  overflow-y: auto;
+}
+.tab-two .list-tab-two {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.tab-two .list-tab-two span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  color: white;
+}
+.tab-two .list-tab-two p {
+  color: #364153;
+}
+
+/* tab three */
+.container-fluid {
+  margin-top: 20px;
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+}
+.container-fluid .col-6 {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  margin-inline: 10px;
+  width: 45%;
+}
+.container-fluid .col-6 .left .out {
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+  background-color: #ffedd4;
+}
+.container-fluid .col-6 p {
+  color: #364153;
+  font-weight: 500;
+}
+.container-fluid .col-6 span {
+  color: #101828;
+  font-size: 20px;
+  font-weight: 700;
+}
+.one-col {
+  color: #f54900;
+}
+.two {
+  background-color: #dbeafe !important;
+}
+.two-col {
+  color: #155dfc !important;
+}
+.three {
+  background-color: #fef9c2 !important;
+}
+.three-col {
+  color: #d08700 !important;
+}
+.four {
+  background-color: #ffe2e2 !important;
+}
+.four-col {
+  color: #e7000b !important;
+}
+.five {
+  background-color: #dbfce7 !important;
+}
+.five-col {
+  color: #00a63e !important;
+}
+.six {
+  background-color: #fce7f3 !important;
+}
+.six-col {
+  color: #e60076 !important;
+}
+
+/* tab four */
+.inner-four {
+  margin-top: 48px;
+}
+.inner-four .one-four {
+  background-color: #fffbeb;
+  border-left: 4px solid #ffb900;
+  border-radius: 8px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+.inner-four .one-four i {
+  color: #e17100;
+  align-self: flex-end;
+  font-size: 17px;
+}
+.inner-four .one-four p {
+  color: #364153;
+  align-self: flex-start;
+}
+
+/* button */
+.button-bottom {
+  border-top: 1px solid #e5e7eb;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+
+.button-bottom button {
+  background: linear-gradient(90deg, #ff7a18, #ff3d3d);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 0 20px;
+  font-weight: bold;
+}
+/*!!!!!!!!!!!!!!!!!!!end food !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
