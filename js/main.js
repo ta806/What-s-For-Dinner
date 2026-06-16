@@ -1,6 +1,6 @@
 var recipes = [
   {
-    image: "../assets/imgi_2_photo-1455619452474-d2be8b1e70cd.jpg",
+    image: "../assets/img1.jpg",
     reviewRate: 4.8,
     reviewCount: 2100,
     cookTime: 30,
@@ -46,7 +46,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1529692236671-f1f6cf9683ba.jpg",
+    image: "../assets/img2.jpg",
     reviewRate: 4.7,
     reviewCount: 3400,
     cookTime: 18,
@@ -92,7 +92,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1546069901-ba9599a7e63c.jpg",
+    image: "../assets/img3.jpg",
     reviewRate: 4.9,
     reviewCount: 4100,
     cookTime: 22,
@@ -138,7 +138,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1547592166-23ac45744acd.jpg",
+    image: "../assets/img4.jpg",
     reviewRate: 4.6,
     reviewCount: 1700,
     cookTime: 40,
@@ -178,7 +178,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1559314809-0d155014e29e.jpg",
+    image: "../assets/img5.jpg",
     reviewRate: 4.8,
     reviewCount: 2800,
     cookTime: 25,
@@ -224,7 +224,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1565299585323-38d6b0865b47.jpg",
+    image: "../assets/img6.jpg",
     reviewRate: 4.9,
     reviewCount: 3900,
     cookTime: 15,
@@ -264,7 +264,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1529692236671-f1f6cf9683ba.jpg",
+    image: "../assets/img7.jpg",
     reviewRate: 4.7,
     reviewCount: 1600,
     cookTime: 35,
@@ -305,7 +305,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1574071318508-1cdbab80d002.jpg",
+    image: "../assets/img8.jpg",
     reviewRate: 4.8,
     reviewCount: 2200,
     cookTime: 12,
@@ -345,7 +345,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1529692236671-f1f6cf9683ba.jpg",
+    image: "../assets/img9.jpg",
     reviewRate: 4.9,
     reviewCount: 3000,
     cookTime: 50,
@@ -385,7 +385,7 @@ var recipes = [
     ],
   },
   {
-    image: "../assets/imgi_2_photo-1565557623262-b51c2513a641.jpg",
+    image: "../assets/img10.jpg",
     reviewRate: 4.8,
     reviewCount: 2600,
     cookTime: 10,
